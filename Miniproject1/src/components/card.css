@@ -1,0 +1,131 @@
+.job-card {
+width: 280px;
+padding: 22px;
+background-color: #ffffff;
+border: 1px solid #e5e7eb;
+border-radius: 16px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.job-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Main Card */
+.top,
+.middle,
+.bottom {
+font-family: Arial, sans-serif;
+}
+
+.top {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-bottom: 24px;
+}
+
+.top img {
+    height: 60px;
+    width: 60px;
+    border: #141922;
+    border-radius: 50%;
+}
+/* Save Button */
+.top button {
+display: flex;
+align-items: center;
+gap: 6px;
+padding: 8px 14px;
+border: 1px solid #d1d5db;
+border-radius: 8px;
+background-color: white;
+color: #374151;
+cursor: pointer;
+transition: 0.2s ease;
+}
+
+.top button:hover {
+background-color: #f3f4f6;
+}
+
+/* Middle Section */
+.middle {
+margin-bottom: 24px;
+}
+
+.middle h3 {
+display: inline-block;
+font-size: 16px;
+color: #374151;
+margin: 0 12px 12px 0;
+}
+
+.middle span {
+color: #9ca3af;
+font-size: 13px;
+}
+
+.middle h2 {
+font-size: 21px;
+color: #111827;
+margin: 8px 0 16px;
+}
+
+/* Job Type Badges */
+.job-type {
+display: inline-block;
+padding: 7px 12px;
+margin-right: 8px;
+border: 1px solid #d1d5db;
+border-radius: 6px;
+color: #4b5563;
+font-size: 12px;
+font-weight: 600;
+}
+
+/* Divider */
+hr {
+border: none;
+border-top: 1px solid #e5e7eb;
+margin: 20px 0;
+}
+
+/* Bottom Section */
+.bottom {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 12px;
+}
+
+.bottom h2 {
+font-size: 19px;
+color: #111827;
+margin: 0 0 6px;
+}
+
+.bottom p {
+font-size: 13px;
+color: #9ca3af;
+margin: 0;
+}
+
+/* Apply Button */
+.bottom button {
+padding: 11px 18px;
+background-color: #111827;
+color: white;
+border: none;
+border-radius: 8px;
+font-weight: 600;
+cursor: pointer;
+transition: 0.2s ease;
+}
+
+.bottom button:hover {
+background-color: #374151;
+transform: translateY(-2px);
+}
